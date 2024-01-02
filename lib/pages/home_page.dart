@@ -14,6 +14,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       backgroundColor: Colors.grey[300],
       body: SafeArea(
         child: Column(
@@ -215,7 +216,7 @@ class _HomePageState extends State<HomePage> {
                   doctorName: 'Mss Aldi Hodsdd',
                   doctorProfession: 'Phamsit',
                 ),
-                 DoctorCard(
+                DoctorCard(
                   doctorImagePath: 'lib/assets/images/doctor1.webp',
                   rating: '4.9',
                   doctorName: 'Dr. Alrcey, Honey',
